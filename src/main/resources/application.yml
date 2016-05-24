@@ -1,0 +1,14 @@
+#server:
+#        ports:7200
+#http:
+#        mappers: 
+#            jsonPrettyPrint: true
+#        
+#logging:
+#        level:
+#            org.springframework.web: DEBUG
+#            org.hibernate: DEBUG
+#            level: DEBUG
+#            com.julie.mikaelson: DEBUG
+#endpoints:
+#        shutdown.enabled: true
