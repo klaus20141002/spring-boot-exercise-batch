@@ -21,6 +21,13 @@ public class UserCtroller {
 	@Autowired
 	private UserRepository userRepository ;
 	
+	@RequestMapping("/")
+	public String home() {
+		logger.error("==============to index page");
+		return "index";
+	}
+	
+	
 	@RequestMapping("/users")
 	@ResponseBody
 	public String showUser() {
